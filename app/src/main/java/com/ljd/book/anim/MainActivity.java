@@ -17,18 +17,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tvMoney = (NumberRollingView) findViewById(R.id.tv_money);
-        tvMoney.setContent("86366.8");
+        tvMoney.setContent("1759546.26");
         numberrolling = findViewById(R.id.numberrolling);
-        numberrolling.setContent(2973607.58);
+        numberrolling.setContent(1759546.26);
         rolling = findViewById(R.id.rolling);
-        rolling.startRolling("8175109546.26");
+        rolling.startRolling("1759546.26");
         go=findViewById(R.id.go);
         go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                rolling.startRolling("8175109.26");
-                numberrolling.setContent(2973607.58);
-                tvMoney.setContent("86366.8");
+                rolling.startRolling("1759546.26");
+                numberrolling.setContent(1759546.21);
+                tvMoney.setContent("1759546.26");
             }
         });
     }

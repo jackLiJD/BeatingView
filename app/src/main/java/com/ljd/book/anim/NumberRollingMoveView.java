@@ -77,7 +77,7 @@ public class NumberRollingMoveView extends View {
 
     public void startRolling(String money) {
         Rect rect = new Rect();
-        paint.getTextBounds(money, 0, money.length()-1, rect);
+        paint.getTextBounds(money, 0, money.length(), rect);
         strHeight = rect.height();
         strWidth = rect.width();
         measure(0,0);
